@@ -27,7 +27,12 @@ function fetchWeather() {
   
         const tempC = data.main.temp;
         const tempF = (tempC * 9/5 + 32).toFixed(1);
-        const date = new Date().toISOString().slice(0, 16).replace("T", " ");
+        const now = new Date();
+        const options = { hour: 'numeric', minute: '2-digit', hour12: true };
+        const formattedTime = now.toLocaleTimeString('en-US', options);
+        const formattedDate = now.toLocaleDateString('en-GB');
+        const dateTime = `${formattedDate} ${formattedTime}`;
+
   
         main.innerHTML = `
           <h1>${tempC}°C</h1>
