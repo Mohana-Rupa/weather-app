@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-section">
+      <h2>Enter City Name</h2>
+      <input type="text" id="city" placeholder="e.g. Rio de Janeiro">
+      <button onclick="fetchWeather()">🔍</button>
+      <div class="weather-display" id="mainWeather"></div>
+    </div>
+    <div class="details-section" id="weatherDetails">
+      <!-- Cards will be populated dynamically -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
