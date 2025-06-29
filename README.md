@@ -21,3 +21,7 @@ A simple weather lookup tool using OpenWeatherMap API. Enter a city, get real-ti
 
 ## License
 MIT
+HEAD
+
+
+88510ead2a41d3e9c6ce7078027c83414fcbc524
