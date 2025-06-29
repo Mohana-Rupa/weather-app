@@ -38,7 +38,7 @@ function fetchWeather() {
           <h1>${tempC}°C</h1>
           <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Weather Icon" style="width:80px">
           <div class="data"><p><b>${data.weather[0].description}</b></p></div>
-          <div class="data"><p>${date}</p></div>
+          <div class="data"><p>${dateTime}</p></div>
           <div class="data"><p>${data.name}, ${data.sys.country}</p></div>  
         `;
   
