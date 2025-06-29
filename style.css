@@ -1,0 +1,108 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f9d423, #ff4e50);
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .search-section {
+    flex: 1;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .search-section input {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-section button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-display {
+    margin-top: 30px;
+  }
+  
+  .weather-display h1 {
+    font-size: 48px;
+    margin: 10px 0;
+  }
+
+  .data{
+    font-size: 22px;
+  }
+  
+  .details-section {
+    flex: 2;
+    min-width: 600px;
+    min-height: 600px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    gap: 20px;
+  }
+  
+  .card {
+    width: 1000px;
+    height: 250px;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .card.wide {
+    width: 500px;
+    height: 200px;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    font-size: 27px;
+  }
+  
+  .card img {
+    margin-bottom: 8px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
